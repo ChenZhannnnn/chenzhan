@@ -5,7 +5,7 @@ import torch
 from torch import optim
 import random
 import numpy as np
-from model import FewShotInduction
+from model.mymodel import FewShotInduction
 from criterion import Criterion
 from tensorboardX import SummaryWriter
 
